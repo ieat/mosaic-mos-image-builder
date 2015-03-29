@@ -22,8 +22,17 @@ mOS 2.x with HVM should be compatible with any cloud stack that uses HVM virtual
 To build mOS 2.0:
 
 .. code:: bash
-	cd bin/
-	./build-mos-image.sh [ec2|HVM] mos_image_name mos_image_version mos_image_build_number mos_image_size_MB
+
+ cd bin/
+ ./build-mos-image.sh [ec2|HVM] mos_image_name mos_image_version mos_image_build_number mos_image_size_MB
+ 
+where:
+
+ * ``mos_image_name`` - a custom name for the built image;
+ * ``mos_image_version`` - image version;
+ * ``mos_image_built_number`` - current built number for the custom image;
+ * ``mos_image_size_MB`` - image size expressed in MBytes;
+ 
 
 How to run
 ==========
