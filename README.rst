@@ -6,16 +6,10 @@ This is an open-source project released under the Apache 2.0 license (see the "N
 How to build
 ============
 
-No building is necessary some requirements are needed:
-
- * apache-libcloud 0.9.x
- * Django 1.5.x
- * paramiko ssh library
 
 How to run
 ==========
 
-Start  RA by executing: ``./run.sh start``
 
 Notice
 ======
