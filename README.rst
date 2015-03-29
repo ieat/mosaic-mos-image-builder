@@ -9,10 +9,7 @@ Requirements
 In order to build a custom mOS 2.x image you need to following requirement:
  * a running OpenSUSE 13.1 environment;
  * a list of linux tools: gcc, wget, curl;
- * a copy of this repository:
-```bash 
-git clone https://github.com/ieat/mosaic-mos-image-builder
-```
+ * a copy of this repository: ``git clone https://github.com/ieat/mosaic-mos-image-builder``
 
 How to build
 ============
@@ -22,10 +19,9 @@ mOS 2.x with HVM should be compatible with any cloud stack that uses HVM virtual
 
 To build mOS 2.0:
 
-```bash
-cd bin/
-./build-mos-image.sh [ec2|HVM] mos_image_name mos_image_version mos_image_build_number mos_image_size_MB
-```
+.. code:: bash
+	cd bin/
+	./build-mos-image.sh [ec2|HVM] mos_image_name mos_image_version mos_image_build_number mos_image_size_MB
 
 How to run
 ==========
