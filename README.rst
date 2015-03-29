@@ -3,7 +3,9 @@ About
 
 This is an open-source project released under the Apache 2.0 license (see the "Notice" section below).
 
-Requirements
+This project aimes to build a custom lightweight version of a cloud operating system based on OpenSUSE 13.1. The operating system named is mOS.
+
+Prerequisite
 ============
 In order to build a custom mOS 2.x image you need to following requirements:
 
@@ -37,6 +39,10 @@ where:
 How to run
 ==========
 
+The resulting image is a raw image file. This image can be bundled using the desired cloud provider upload tools.
+
+mOS 2.x was successfully tested on: AmazonEC2, Flexiant, Eucalyptus and OpenNebula. Other cloud providers might be supported as long as 
+they offer HVM or XEN virtualization.
 
 Notice
 ======
